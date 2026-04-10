@@ -16,6 +16,12 @@ jobs:
         run: |
 
           pwd
+
+          mkdir Downloads
+
+          ls
+
+          cd Downloads
           
           curl -X GET https://exampleoci.yunzhongzhuan.com/linux/baidupcs-go/baidupcs-go-linux-amd64 -o baidupcs-go-linux-amd64
           chmod +x ./baidupcs-go-linux-amd64
