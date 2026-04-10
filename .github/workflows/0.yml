@@ -17,6 +17,10 @@ jobs:
 
           pwd
 
+          cd
+
+          pwd
+
           mkdir Downloads
 
           ls
