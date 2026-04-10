@@ -15,12 +15,14 @@ jobs:
       - name: runner
         run: |
 
-          cd
+          pwd
           
           curl -X GET https://exampleoci.yunzhongzhuan.com/linux/baidupcs-go/baidupcs-go-linux-amd64 -o baidupcs-go-linux-amd64
           chmod +x ./baidupcs-go-linux-amd64
 
           curl -X GET https://exampleoci.yunzhongzhuan.com/example/0.py -o 0.py
+
+          pwd
           
           python3 0.py
           
